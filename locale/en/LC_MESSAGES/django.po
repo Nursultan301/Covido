@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-20 09:07+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Covido/settings.py:124
+msgid "Russian"
+msgstr ""
+
+#: Covido/settings.py:125
+msgid "English"
+msgstr ""
+
+#: Covido/settings.py:126
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: covid/forms.py:14
+msgid "Имя"
+msgstr "Name"
+
+#: covid/forms.py:15
+msgid "Телефон номер"
+msgstr "Number"
+
+#: covid/forms.py:17
+msgid "Сообщение"
+msgstr "Message"
+
+#: templates/base.html:56 templates/base.html:99
+#: templates/covid/contact.html:56 templates/covid/contact.html:125
+msgid "Главная"
+msgstr "Home"
+
+#: templates/base.html:57 templates/base.html:100
+#: templates/covid/contact.html:57 templates/covid/contact.html:126
+msgid "О нас"
+msgstr "About us"
+
+#: templates/base.html:58 templates/base.html:101
+#: templates/covid/contact.html:58 templates/covid/contact.html:127
+msgid "новость"
+msgstr "News"
+
+#: templates/base.html:60 templates/base.html:102
+#: templates/covid/contact.html:60 templates/covid/contact.html:128
+msgid "Доктор"
+msgstr "Doctor"
+
+#: templates/base.html:62 templates/base.html:103
+#: templates/covid/contact.html:62 templates/covid/contact.html:129
+msgid "Контакты"
+msgstr "Contact"
+
+#: templates/base.html:77
+msgid "Change"
+msgstr ""
+
+#: templates/base.html:112 templates/covid/contact.html:78
+#: templates/covid/contact.html:137
+msgid "СВЯЖИТЕСЬ С НАМИ"
+msgstr "CONTACT US"
+
+#: templates/base.html:115 templates/covid/contact.html:140
+msgid "Делая это первым истинным"
+msgstr "Making it first true"
+
+#: templates/base.html:130 templates/covid/contact.html:155
+msgid "СТРАНЫ"
+msgstr "COUNTRY"
+
+#: templates/base.html:143 templates/covid/contact.html:168
+msgid "2023 Все права защищены"
+msgstr "2023 All rights reserved"
+
+#: templates/covid/index.html:20 templates/covid/index.html:35
+msgid "Уход за ранним <br>коронавирусом"
+msgstr "Early care for <br>coronavirus"
+
+#: templates/covid/index.html:64
+msgid "ПРО КОРОНАВИРУС "
+msgstr "ABOUT CORONAVIRUS"
+
+#: templates/covid/index.html:65
+msgid ""
+"\n"
+"                            Коронавирусы — это большое семейство однонитевых "
+"РНК-вирусов с оболочкой. Такие вирусы вызывают заболевания начиная от "
+"простуды и заканчивая более серьезными заболеваниями, такими, как "
+"ближневосточный респираторный синдром (MERS) или тяжелый острый "
+"респираторный синдром (SARS). Новый коронавирус (CoV) представляет собой "
+"новый штамм коронавируса, который ранее не был идентифицирован у людей.\n"
+"                        "
+msgstr ""
+"\n"
+"Coronaviruses are a large family of single-stranded ones"
+"RNA viruses with an envelope. Such viruses cause diseases ranging from "
+"colds and ending with more serious illnesses such as "
+"Middle East Respiratory Syndrome (MERS) or Severe Acute"
+"respiratory syndrome (SARS). The novel coronavirus (CoV) is a"
+"a new strain of coronavirus that has not been previously identified in humans.\n"
+" "
+
+#: templates/covid/index.html:93
+msgid "КАК РАСПРОСТРАНЯЕТСЯ ЗАБОЛЕВАНИЕ"
+msgstr "HOW THE DISEASE IS SPREAD"
+
+#: templates/covid/index.html:113
+msgid "Профилактика коронавируса"
+msgstr "Coronavirus prevention"
+
+#: templates/covid/index.html:129
+msgid "Вакцинируйтесь"
+msgstr "Vaccinated"
+
+#: templates/covid/index.html:130
+msgid ""
+"\n"
+"                                            Вакцина – единственное надежное "
+"средство профилактики вируса. Только пройдя вакцинацию мы сможем остановить "
+"передачу вируса и защитить себя от его тяжелых последствий.\n"
+"                                        "
+msgstr ""
+"\n"
+"Vaccination is the only reliable"
+"a means of preventing the virus. Only by getting vaccinated can we stop"
+"transmitting the virus and protecting yourself from its severe consequences.\n"
+" "
+
+#: templates/covid/index.html:140
+msgid "Мойте руки"
+msgstr "Wash your hands"
+
+#: templates/covid/index.html:141
+msgid ""
+"\n"
+"                                            Всегда мойте руки: когда "
+"приходите на работу или возвращаетесь домой. Для профилактики также подойдут "
+"влажные салфетки или дезинфицирующие растворы.\n"
+"                                        "
+msgstr ""
+"\n"
+"Always Wash Your Hands: When"
+"come to work or return home. Also suitable for prevention"
+"wet wipes or disinfectant solutions.\n"
+" "
+
+#: templates/covid/index.html:151
+msgid "Отмените путешествия"
+msgstr "Cancel travel"
+
+#: templates/covid/index.html:152
+msgid ""
+"\n"
+"                                            На время, пока разные страны "
+"мира борются с корона вирусом, не следует путешествовать заграницу. В "
+"особенности туда, где ситуация с коронавирусом крайне тяжелая.\n"
+"                                        "
+msgstr ""
+"\n"
+"For the time, while different countries"
+"Mira fight the crown with a virus, you should not travel abroad."
+"Features to where the situation with coronavirus is extremely difficult."
+
+
+#: templates/covid/index.html:172
+msgid "НОВОСТИ"
+msgstr "News"
+
+#: templates/covid/index.html:181 templates/covid/index.html:194
+#: templates/covid/index.html:207
+msgid "Подробнее.."
+msgstr "More.."
+
+#: templates/covid/index.html:183
+msgid ""
+"ВОЗ обновляет рекомендации в отношении ношения масок, методов лечения и "
+"оказания помощи  при  COVID-19"
+msgstr ""
+"WHO updates guidance on mask wearing, treatments and "
+"providing assistance with COVID-19"
+
+#: templates/covid/index.html:184
+msgid ""
+"\n"
+"                                ВОЗ обновила свои рекомендации по ношению "
+"масок в общественных местах, лечению и клиническому ведению пациентов с "
+"COVID-19. Эта работа была проведена в рамках процесса непрерывного анализа "
+"соответствующих материалов в сотрудничестве с группами по разработке "
+"руководящих принципов, в состав которых входят независимые международные "
+"эксперты, изучающие новейшие имеющиеся данные и изменения в "
+"эпидемиологической обстановке.\n"
+"                            "
+msgstr ""
+"\n"
+"WHO has updated its wearing guidelines"
+"masks in public places, treatment and clinical management of patients with "
+"COVID-19. This work was carried out as part of a continuous review process"
+"relevant materials in cooperation with development teams "
+"guidelines, which include independent international "
+"experts studying the latest available data and changes in "
+"epidemic situation.\n"
+" "
+
+#: templates/covid/index.html:196
+msgid ""
+"Заявление ТКГЭВ о совещании по вопросу об обстановке по COVID-19 в Китае, "
+"состоявшемся 3  января"
+msgstr ""
+"TEAP Statement on Meeting on COVID-19 Situation in China,"
+"held on 3 January"
+
+#: templates/covid/index.html:197
+msgid ""
+"\n"
+"                                Техническая консультативная группа по "
+"эволюции вируса (ТКГЭВ) проводит регулярные совещания для рассмотрения "
+"последних научных данных о циркулирующих вариантах SARS-CoV-2 и представляет "
+"ВОЗ рекомендации о целесообразности корректировки стратегий по защите "
+"здоровья населения. Третьего января 2023 г. ТКГЭВ провела совещание, на "
+"котором она обсудила ситуацию с распространением COVID-19 на территории "
+"континентального Китая.\n"
+"                            "
+msgstr ""
+"\n"
+"Technical Advisory Group on"
+"evolution of the virus (TCEV) meets regularly to review "
+"the latest scientific data on circulating SARS-CoV-2 variants and presents "
+"WHO recommendations on the advisability of adjusting protection strategies"
+"public health. On January 3, 2023, TCPEW held a meeting on "
+"in which she discussed the situation with the spread of COVID-19 in the territory"
+"mainland China.\n"
+" "
+
+#: templates/covid/index.html:209
+msgid ""
+"ВОЗ и официальные представители Китая обсудили текущую ситуацию с "
+"распространением COVID-19"
+msgstr ""
+"WHO and Chinese officials discussed the current situation with "
+"the spread of COVID-19"
+
+#: templates/covid/index.html:210
+msgid ""
+"\n"
+"                                Тридцатого декабря в связи с нынешним резким "
+"подъемом заболеваемости COVID-19 ВОЗ и Китай провели совещание высокого "
+"уровня, на котором стороны обменялись подробной информацией о ситуации, а "
+"ВОЗ предложила стране экспертную помощь и дополнительную поддержку.\n"
+"                            "
+msgstr ""
+"\n"
+"December thirtieth due to the present abrupt"
+"the rise in the incidence of COVID-19, WHO and China held a high-level meeting "
+"the level at which the parties exchanged detailed information about the situation, and "
+"WHO has offered expert assistance and additional support to the country.\n"
+" "
+
+#: templates/covid/index.html:226
+msgid "ЧТО ГОВОРЯТ ВРАЧИ..."
+msgstr "WHAT DO THE DOCTOR'S SAY..."
+
+#: templates/covid/index.html:234
+msgid "Айгуль Жакубекова"
+msgstr "Aigul Zhakubekova"
+
+#: templates/covid/index.html:235
+#, python-format
+msgid ""
+"\n"
+"                            - Мы подключаем к этому оборудованию, когда уже "
+"нет другого выхода, когда дыхательные органы человека не работают на 90%%. "
+"Для нас большая победа, если хотя бы 5%% пациентов, подключенных к ИВЛ, "
+"выживут. Из 50 человек, попадающих в реанимацию, мы подключаем к ИВЛ только "
+"8-9 человек. Мы делаем это неохотно, потому что вероятность выздоровления "
+"среди таких пациентов очень низкая\n"
+"                        "
+msgstr ""
+
+
+
+#: templates/covid/index.html:244
+msgid "Джамиля Чынгышева"
+msgstr "Jamila Chyngyshev"
+
+#: templates/covid/index.html:245
+msgid ""
+"\n"
+"                            - Коронавирус – это новая болезнь, мировые "
+"ученые, организации здравоохранения, в том числе и мы, с возникновением "
+"новых обстоятельств вынуждены менять протокол лечения. Сейчас мы лечим "
+"больных по опыту таких стран как Британия, Италия, Китай. Новые инструкции "
+"появляются ежедневно. Согласно им инструкциям применяются три вида "
+"препаратов, разжижающих кровь. Это антикоагулянты – гепарин, надропарин и "
+"эноксапарин.\n"
+"                        "
+msgstr ""
+"\n"
+" - Coronavirus is a new disease, world"
+"Scientists, healthcare organizations, including us, with the emergence"
+"New circumstances are forced to change the treatment protocol. Now we are treating"
+"Patients from the experience of countries such as Britain, Italy, China. New Instructions"
+"There are daily. According to them the instructions, three types are used"
+"Drugs that liquefy blood. These are anticoagulants - heparin, supraparin and"
+"Enoxaparin. \n"
+" "
+
+#: templates/covid/index.html:262
+msgid "ПОЛУЧИТЬ КАЖДОЕ ОБНОВЛЕНИЕ...."
+msgstr "GET EVERY UPDATE...."
+
+#: templates/covid/index.html:276
+msgid "Подпишитесь сейчас"
+msgstr "Subscribe Now"

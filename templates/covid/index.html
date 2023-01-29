@@ -1,0 +1,284 @@
+{% extends "base.html" %}
+{% load static i18n %}
+{% block content %}
+    <div class="full_bg">
+        <div class="section">
+            <div id="banner1" class="carousel slide slider_main">
+                <ol class="carousel-indicators ">
+                    <li data-target="#banner1" data-slide-to="0" class="indicator-li-1">01</li>
+                    <li data-target="#banner1" data-slide-to="1" class="">02</li>
+                    <li data-target="#banner1" data-slide-to="2" class="active">03</li>
+                </ol>
+                <div class="carousel-inner">
+                    <!-- first slide -->
+                    <div class="carousel-item active" id="home">
+                        <div class="carousel-caption cuplle">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="photog">
+                                            <h1>{% trans "Уход за ранним <br>коронавирусом" %}</h1>
+                                            <a class="read_more" href="#about">COVID-19</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second slide -->
+                    <div class="carousel-item">
+                        <div class="carousel-caption cuplle">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="photog">
+                                            <h1>{% trans "Уход за ранним <br>коронавирусом" %}</h1>
+                                            <a class="read_more" href="#about">COVID-19</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third slide -->
+                </div>
+                <!-- controls -->
+                <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+    <!-- about -->
+    <div class="about" id="about">
+        <div class="container_width">
+            <div class="row d_flex">
+                <div class="col-md-7">
+                    <div class="titlepage text_align_left">
+                        <h2>{% trans "ПРО КОРОНАВИРУС " %}</h2>
+                        <p>{% blocktrans %}
+                            Коронавирусы — это большое семейство однонитевых РНК-вирусов с оболочкой. Такие вирусы вызывают заболевания начиная от простуды и заканчивая более серьезными заболеваниями, такими, как ближневосточный респираторный синдром (MERS) или тяжелый острый респираторный синдром (SARS). Новый коронавирус (CoV) представляет собой новый штамм коронавируса, который ранее не был идентифицирован у людей.
+                        {% endblocktrans %}</p>
+                        <a class="read_more"
+                           href="https://www.bbraun.ru/ru/patients/infection-prevention-for-patients/coronavirus.html#">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="about_img text_align_center">
+                        <figure><img src="{% static 'images/about.png' %}" alt="#"/></figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- coronata -->
+    <div class="coronata">
+        <div class="container">
+            <div class="row d_flex grid">
+                <div class="col-md-7">
+                    <div class="coronata_img text_align_center">
+                        <figure><img src="{% static 'images/corona.png' %}" alt="#"/></figure>
+                    </div>
+                </div>
+                <div class="col-md-5 oder1" id="news">
+                    <div class="titlepage text_align_left">
+                        <h2>{% trans "КАК РАСПРОСТРАНЯЕТСЯ ЗАБОЛЕВАНИЕ" %}</h2>
+                        <p>Вирус может передаваться с каплями слюны изо рта или выделениями из носа инфицированного
+                            человека
+                            во время кашля, чихания, разговора, пения или дыхания. Размер частиц жидкости может быть
+                            разным:
+                            от крупных респираторных капель до более мелких аэрозольных частиц. </p>
+                        <a class="read_more" href="https://covid19.rosminzdrav.ru/">Подробнее...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end coronata -->
+
+    <!-- protect -->
+    <div class="protect">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center">
+                        <h2>{% trans "Профилактика коронавируса" %}</h2>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="protect_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--  Demos -->
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="protect_box text_align_center">
+                                    <div class="desktop">
+                                        <i><img src="{% static 'images/pro1.png' %}" alt="#"/></i>
+                                        <h3>{% trans "Вакцинируйтесь" %}</h3>
+                                        <span>{% blocktrans %}
+                                            Вакцина – единственное надежное средство профилактики вируса. Только пройдя вакцинацию мы сможем остановить передачу вируса и защитить себя от его тяжелых последствий.
+                                        {% endblocktrans %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="protect_box text_align_center">
+                                    <div class="desktop">
+                                        <i><img src="{% static 'images/pro2.png' %}" alt="#"/></i>
+                                        <h3>{% trans "Мойте руки" %}</h3>
+                                        <span>{% blocktrans %}
+                                            Всегда мойте руки: когда приходите на работу или возвращаетесь домой. Для профилактики также подойдут влажные салфетки или дезинфицирующие растворы.
+                                        {% endblocktrans %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="protect_box text_align_center">
+                                    <div class="desktop">
+                                        <i><img src="{% static 'images/pro3.png' %}" alt="#"/></i>
+                                        <h3>{% trans "Отмените путешествия" %}</h3>
+                                        <span>{% blocktrans %}
+                                            На время, пока разные страны мира борются с корона вирусом, не следует путешествовать заграницу. В особенности туда, где ситуация с коронавирусом крайне тяжелая.
+                                        {% endblocktrans %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end protect -->
+    <!-- cases -->
+    <div class="cases" id="action">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center ">
+                        <h2>{% trans "НОВОСТИ" %}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row d_flex">
+                <div class=" col-md-4">
+                    <div class="latest text_align_center">
+                        <figure><img src="{% static 'images/cases1.png' %}" alt="#"/></figure>
+                        <a class="read_more"
+                           href="https://www.who.int/ru/news/item/13-01-2023-who-updates-covid-19-guidelines-on-masks--treatments-and-patient-care">{% trans "Подробнее.." %}</a>
+                        <div class="nostrud">
+                            <h3>{% trans "ВОЗ обновляет рекомендации в отношении ношения масок, методов лечения и оказания помощи  при  COVID-19" %}</h3>
+                            <p>{% blocktrans %}
+                                ВОЗ обновила свои рекомендации по ношению масок в общественных местах, лечению и клиническому ведению пациентов с COVID-19. Эта работа была проведена в рамках процесса непрерывного анализа соответствующих материалов в сотрудничестве с группами по разработке руководящих принципов, в состав которых входят независимые международные эксперты, изучающие новейшие имеющиеся данные и изменения в эпидемиологической обстановке.
+                            {% endblocktrans %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="latest text_align_center">
+                        <figure><img src="{% static 'images/cases2.png' %}" alt="#"/></figure>
+                        <a class="read_more"
+                           href="https://www.who.int/ru/news/item/04-01-2023-tag-ve-statement-on-the-3rd-january-meeting-on-the-covid-19-situation-in-china">{% trans "Подробнее.." %}</a>
+                        <div class="nostrud">
+                            <h3>{% trans "Заявление ТКГЭВ о совещании по вопросу об обстановке по COVID-19 в Китае, состоявшемся 3  января" %}</h3>
+                            <p>{% blocktrans %}
+                                Техническая консультативная группа по эволюции вируса (ТКГЭВ) проводит регулярные совещания для рассмотрения последних научных данных о циркулирующих вариантах SARS-CoV-2 и представляет ВОЗ рекомендации о целесообразности корректировки стратегий по защите здоровья населения. Третьего января 2023 г. ТКГЭВ провела совещание, на котором она обсудила ситуацию с распространением COVID-19 на территории континентального Китая.
+                            {% endblocktrans %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="latest text_align_center">
+                        <figure><img src="{% static 'images/cases3.png' %}" alt="#"/></figure>
+                        <a class="read_more"
+                           href="https://www.who.int/ru/news/item/30-12-2022-who-meets-with-chinese-officials-on-current-covid-19-situation">{% trans "Подробнее.." %}</a>
+                        <div class="nostrud">
+                            <h3>{% trans "ВОЗ и официальные представители Китая обсудили текущую ситуацию с распространением COVID-19" %}</h3>
+                            <p>{% blocktrans %}
+                                Тридцатого декабря в связи с нынешним резким подъемом заболеваемости COVID-19 ВОЗ и Китай провели совещание высокого уровня, на котором стороны обменялись подробной информацией о ситуации, а ВОЗ предложила стране экспертную помощь и дополнительную поддержку.
+                            {% endblocktrans %}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end cases -->
+    <!-- doctors -->
+    <div class="doctors" id="doctores">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center ">
+                        <h2>{% trans "ЧТО ГОВОРЯТ ВРАЧИ..." %}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row d_flex">
+                <div class=" col-md-6">
+                    <div id="ho_efcet" class="reader text_align_center">
+                        <i><img src="{% static 'images/doctor1.png' %}" alt="#"/></i>
+                        <h3>{% trans "Айгуль Жакубекова" %}</h3>
+                        <p>{% blocktrans %}
+                            - Мы подключаем к этому оборудованию, когда уже нет другого выхода, когда дыхательные органы человека не работают на 90%. Для нас большая победа, если хотя бы 5% пациентов, подключенных к ИВЛ, выживут. Из 50 человек, попадающих в реанимацию, мы подключаем к ИВЛ только 8-9 человек. Мы делаем это неохотно, потому что вероятность выздоровления среди таких пациентов очень низкая
+                        {% endblocktrans %}</p>
+                        <span><img src="{% static 'images/do.png' %}" alt="#"/></span>
+                    </div>
+                </div>
+                <div class=" col-md-6">
+                    <div id="ho_efcet" class="reader text_align_center">
+                        <i><img src="{% static 'images/doctor2.png' %}" alt="#"/></i>
+                        <h3>{% trans "Джамиля Чынгышева" %}</h3>
+                        <p>{% blocktrans %}
+                            - Коронавирус – это новая болезнь, мировые ученые, организации здравоохранения, в том числе и мы, с возникновением новых обстоятельств вынуждены менять протокол лечения. Сейчас мы лечим больных по опыту таких стран как Британия, Италия, Китай. Новые инструкции появляются ежедневно. Согласно им инструкциям применяются три вида препаратов, разжижающих кровь. Это антикоагулянты – гепарин, надропарин и эноксапарин.
+                        {% endblocktrans %}</p>
+                        <span><img src="{% static 'images/do.png' %}" alt="#"/></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end cases -->
+    <!-- update -->
+    <div class="update">
+        <div class="cevery_white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titlepage">
+                            <h2>{% trans "ПОЛУЧИТЬ КАЖДОЕ ОБНОВЛЕНИЕ...." %}</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cevery_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form id="colof" class="form_subscri" method="post">
+                            {% csrf_token %}
+{#                            <input class="newsl" placeholder="Ваш адрес электронной почты" type="text" name="Email">#}
+                            {{ form.email }}
+                            <button type="submit" class="subsci_btn">{% trans "Подпишитесь сейчас" %}</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
